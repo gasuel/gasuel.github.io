@@ -81,6 +81,18 @@ section{
     height: 500px;
     background: var(--color-esqueleto);
     margin-top: 20px;
+    justify-content: center;
+    
+}
+
+.cover img{
+    padding: auto;
+    width: 600px;
+    
+}
+
+.cover div{
+    align-content: center;
 }
 
 .container__article{
@@ -91,6 +103,10 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.container__article img{
+    width: 200px;
 }
 
 .container__article .box__article{
